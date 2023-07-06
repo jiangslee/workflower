@@ -64,6 +64,16 @@ class WorkItemContext implements WorkItemContextInterface
     }
 
     /**
+     *  {@inheritdoc}
+     * @return int|string
+     * @since 2.0.x-dev
+     */
+    public function getWorkItemId(): int|string
+    {
+        return 0;
+    }
+
+    /**
      * @param ParticipantInterface $participant
      *
      * @since Method available since Release 1.1.0

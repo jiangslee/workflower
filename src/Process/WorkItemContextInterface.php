@@ -23,6 +23,7 @@ interface WorkItemContextInterface
 
     /**
      * @return int|string
+     * @since 2.0.x-dev
      */
     public function getWorkItemId();
 
